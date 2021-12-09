@@ -1,0 +1,32 @@
+body{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(50deg,#f494b8,#37d1e1,#d2ee58,#2ef871);
+    animation: change 4s infinite;
+    background-size: 400% 400%;
+}
+@keyframes change {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+p
+{
+    display: inline-flex;
+    margin: auto 10px;
+    font-size: 22px;
+    font-weight: bolder;
+    color: rgb(12, 3, 3);
+    border-radius: 10px;
+    border: 5px solid rgb(8, 4, 4);
+    padding: 10px;
+
+}
